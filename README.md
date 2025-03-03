@@ -21,7 +21,7 @@ Use your knowledge of object-oriented programming, ArrayLists, the String class,
 
 Put and image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here. Make sure your image file name is one word, otherwise it might not properly get display on this README.
 
-![UML Diagram for my project](nameOfImageFileHere.png)
+![UML Diagram for my project](![alt text](image.png))
 
 ## Video
 
@@ -33,12 +33,12 @@ Record a short video of your project to display here on your README. You can do 
 - Upload the thumbnail image to your repo.
 - Use the following markdown code:
 
-[![Thumbnail for my projet](nameOfThumbnail.png)](youtube-URL-here)
+[![Thumbnail for my projet](![alt text](image-1.png))]([youtube-URL-here](https://youtu.be/dxkJboO1XWE))
 
 ## Project Description
 
-Write a description of the goal and/or problem that your application. Include descriptions of what text is being analyzed, either if its text files you are using to interpret text an how the user interacts with your project.
+My application is a recipe generator app that generates recipes based on what the user wants to make. The program analyzes user input to determine the type of recipe they'd like, and then uses a series of keywords to filter a list of recipes for the user. After filtering the lists of recipes, it prints all possible indexes that would match the user's description
 
 ## NLP Techniques
 
-Write a description of what natural lanugage technique (NLP) you implemented in your project. State which methods in your project are associated with this, and a brief explanation of how those methods word and how they are necessary in the NLP technique. 
+I implemented keyword tagging and data analysis into my project, which was exemplified in the method Filter(String input) as it takes a string provided by the user and separates each word into an index of an ArrayList. It then goes through that ArrayList and checks if each word matches a keyword that will determine which filter is used on the recipe list. 
